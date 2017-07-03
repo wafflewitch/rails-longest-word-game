@@ -1,0 +1,14 @@
+<title>longest word game</title>
+<div class="container">
+  <div class="card">
+    <h1>let's play a game!</h1>
+    <h1><%= @grid %></h1>
+    <form action="/score" method="get">
+      <label for="attempt">enter a word:&nbsp;</label>
+      <input type="text" id="attempt" name="attempt" placeholder="apple">
+      <input type="hidden" name="grid" value="<%= @grid %>">
+      <input type="hidden" name="start_time" value="<%= @start_time %>">
+      <input type="submit" value="play!">
+    </form>
+  </div>
+</div>

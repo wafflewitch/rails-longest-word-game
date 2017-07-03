@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="card">
+    <h1>game results</h1>
+    <h2><%= @grid %></h2>
+    <h2>your guess: <%= @attempt %></h2>
+    <p>-------------------------</p>
+    <h2>"<%= @message %>"</h2>
+    <h2><%= @score %></h2>
+  </div>
+
+  <div class="card">
+    <p><%= link_to "play again", game_path %></p>
+  </div>
+</div>

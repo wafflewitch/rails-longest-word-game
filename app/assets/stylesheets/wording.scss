@@ -1,0 +1,28 @@
+// Place all the styles related to the wording controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: #ffe6ee;
+  text-align: center;
+}
+
+h1, h2, p {
+  font-family: Open Sans, Arial;
+}
+
+.card {
+  background-color: #F8F8F8;
+  color: #ff99bb;
+  text-align: center;
+  width: 600px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
